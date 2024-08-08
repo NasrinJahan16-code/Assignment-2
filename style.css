@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+  }
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 60px;
+} 
+.pt-sans-btn {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    font-size: 20px;
+    
+} 
+ .playwrite-vn-italic {
+    font-family: "Playwrite VN", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+p{
+    font-size: 17px;
+    color: #7f7f7f;
+    font-style: bold;
+}  
+header{
+    margin-top: 10px;
+    max-width: 1200px;
+}
+ body{
+    background-color: black;
+    max-width: 1300px;
+    margin : 0 auto;
+    color: white;
+    text-align: center;
+ }
+.brand{
+    color: red;
+    font-size: 40px;
+}
+header{
+    
+}
+/* nav-bar related style */
+nav{
+    display: flex;
+    
+}
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav>ul{
+    display: flex;
+    padding-left: 100px;
+}
+nav li{
+    list-style: none;
+    
+    padding-left: 100px;
+}
+nav li.home :hover{
+    background-color: red;
+
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-icon{
+    display: none;
+}
+.main-content{
+   max-width: 1300px;
+   margin: 0 auto;
+   margin-top: 20px;
+
+}
+.banner-main{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.banner-childs{
+    width: 47%;
+    position: relative;
+}
+.banner-childs img{
+    width: 47%;
+}
+.btn-primary{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 15px;
+    color: white;
+}
+.join{
+    background-color:red;
+}
+.app{
+    background-color: #443833;
+}
+
+.video{
+    background-color:#393939;
+    width: 150px;
+    padding: 20px;
+    border-radius: 8px;
+    right: 20%;
+    /* position: absolute;
+    top: 10%; */
+    
+}
+.video-tutorial{
+    background-color:#443833;
+    width: 150px;
+    padding: 20px;
+    border-radius: 8px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+
+.change-habit{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+.card{
+
+    padding: 10px;
+
+}
+.card img{
+    /* width: 60%; */
+    border-radius: 50%;
+}
+
+.run-mile{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.run-childs{
+    width: 47%;
+    position: relative;
+}
+.run-childs img{
+    width: 100%;
+    border-radius: 15px;
+}
+.bmi-calculator{
+    height: 500px;
+    margin-top: 50PX;
+    padding: 10px;
+   
+    background-color: rgb(23, 30, 30);
+    display: flex;
+    justify-content:space-around;
+}
+.chart{
+    width: 47%;
+}
+.calculte{
+    width: 47%;
+}
+form{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+form>input{
+    margin: 15px;
+    width: 35%;
+    padding: 10px;
+    align-items: center;
+    background-color:rgb(40, 43, 43);
+}
+.btn-calculate{
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 20px;
+    color: white;
+    margin: 10px;
+    background-color: rgb(234, 31, 58);
+}
+
+.meet-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 30px;
+    /* background-color: #191919; */
+}
+.meet-childs{
+    width: 30%;
+    justify-content: space-between;
+    padding: 15px;
+}
+.meet-childs>img{
+    height: 300px;
+    width: 330px;
+    border-radius: 10%;
+    position: relative;
+}
+
+ 
+footer{
+    margin-top: 50px;
+    padding: 30px 80px;
+    background-color: rgb(23, 30, 30);
+    
+    
+}
+.last-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.contact{
+   
+    color:grey;
+    
+}
+.get-started{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 25px;
+    width: 100%;
+}
+td{
+    border: 1px solid gray;
+    padding: 20px;
+    color: gray;
+}

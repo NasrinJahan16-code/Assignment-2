@@ -1,0 +1,45 @@
+@media screen and (max-width : 560px) {
+    body{
+        margin: 0 auto;
+    }
+    .nav-icon{
+        display: block;
+        padding-right: 20px;
+    }
+    .dropdown{
+        display: none;
+    }
+    .banner-main{
+        flex-direction: column;
+    }
+    .banner-childs{
+        width: 100%;
+    }
+    .change-habit{
+        grid-template-columns: repeat(1,2fr);
+    }
+
+    .run-mile{
+        flex-direction: column;
+    }
+    .run-childs{
+        width: 100%;
+    }
+
+    .bmi-calculator{
+        
+        display: inline;
+        padding: 2px;
+    }
+    .chart{
+        padding-left: 50px;
+    }
+    .meet-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .last-section{
+        display:inline;
+        
+    }
+    
+}
